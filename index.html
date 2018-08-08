@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Polymer Starter Kit">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>Warp 10 Photon</title>
+    <meta name="description" content="Photon is a light Quantum...">
+
+    <!--
+      The `<base>` tag below is present to support two advanced deployment options:
+      1) Differential serving. 2) Serving from a non-root path.
+
+      Instead of manually editing the `<base>` tag yourself, you should generally either:
+      a) Add a `basePath` property to the build configuration in your `polymer.json`.
+      b) Use the `--base-path` command-line option for `polymer build`.
+
+      Note: If you intend to serve from a non-root path, see [polymer-root-path] below.
+    -->
+    <base href="/">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- See https://goo.gl/OOhYW5 -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#3f51b5">
+
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="My App">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="My App">
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="images/manifest/icon-48x48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/manifest/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="images/manifest/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="images/manifest/icon-192x192.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/manifest/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3f51b5">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <script>
+      /**
+      * [polymer-root-path]
+      *
+      * Leave this line unchanged if you intend to serve your app from the root
+      * path (e.g., with URLs like `my.domain/` and `my.domain/view1`).
+      *
+      * If you intend to serve your app from a non-root path (e.g., with URLs
+      * like `my.domain/my-app/` and `my.domain/my-app/view1`), edit this line
+      * to indicate the path from which you'll be serving, including leading
+      * and trailing slashes (e.g., `/my-app/`).
+      */
+      window.PhotonGlobals = { rootPath: '/' };
+
+      // Load and register pre-caching Service Worker
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('service-worker.js', {
+            scope: window.PhotonGlobals.rootPath,
+          });
+        });
+      }
+    </script>
+      
+    <!-- Load webcomponents-loader.js to check and load any polyfills your browser needs -->
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <!-- Load your application shell -->
+    <script type="module" src="./src/photon-app.js"></script>
+
+    <!-- Add any global styles for body, document, etc. -->
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #eeeeee;
+      }
+      header {
+        width: 100%;
+        height: 96px;
+        background-color: #162d50;
+        color: #ffcc00;
+        font-size: 48px;
+        fill: #ffcc00;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      header > * {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+      header svg {
+        height: 48px;
+        width: 48px;
+      }
+    </style>
+  </head>    
+  <body>
+    <header>
+      <div>Warp 10</div> 
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+        <path d="M4.91 5.666a.958.958 0 0 0-.626.259 1.45 1.45 0 0 0-.309.442c-.155.318-.268.704-.393 1.225-.251 1.049-.471 2.687-.698 4.005a2.176 2.176 0 0 0-.108-.381.844.844 0 0 0-.139-.243.712.712 0 0 0-.545-.267h-.768l-.005 1.252s.212-.011.33 0c.038.2.08.463.125.75.05.32.103.645.179.932.038.144.076.275.156.425.04.075.09.158.19.25a.762.762 0 0 0 .49.199c.307.004.612-.202.753-.397.141-.195.206-.383.267-.593.123-.42.206-.943.323-1.617.238-1.372.473-3.085.696-4.017.032-.131.052-.154.082-.262.03.108.05.131.081.262.224.932.458 2.645.696 4.017.232 1.332.456 3.024.713 4.096.125.521.238.907.393 1.224.077.16.165.306.31.443a.957.957 0 0 0 .624.258.958.958 0 0 0 .626-.258 1.45 1.45 0 0 0 .309-.443c.155-.317.268-.703.393-1.224.257-1.072.48-2.762.711-4.093.238-1.371.472-3.082.695-4.014.032-.13.052-.154.082-.262.03.108.05.131.081.262.224.932.458 2.645.697 4.017.23 1.332.455 3.024.712 4.096.125.521.238.907.393 1.224.078.16.165.306.31.443a.958.958 0 0 0 .625.258c.243 0 .48-.121.625-.258.145-.137.232-.284.309-.443.155-.317.268-.703.393-1.224.257-1.072.481-2.764.713-4.096.014-.083.024-.115.038-.194.02.076.037.15.07.23a.813.813 0 0 0 .124.22.673.673 0 0 0 .545.275h1.381v2.514l5.457-3.155-.512-.295-4.945-2.86v2.515h-.939a31.237 31.237 0 0 1-.124-.613 8.65 8.65 0 0 0-.195-.84 1.76 1.76 0 0 0-.16-.389.854.854 0 0 0-.186-.232.75.75 0 0 0-.481-.185c-.385 0-.646.28-.763.478a2.383 2.383 0 0 0-.238.617c-.122.45-.217 1.02-.335 1.695-.238 1.372-.473 3.084-.696 4.016-.031.132-.051.154-.081.263-.03-.109-.05-.132-.082-.263-.223-.932-.458-2.644-.696-4.016-.231-1.333-.456-3.024-.713-4.096-.125-.522-.238-.908-.393-1.225a1.448 1.448 0 0 0-.309-.442.958.958 0 0 0-.625-.259.958.958 0 0 0-.625.259 1.45 1.45 0 0 0-.31.442c-.154.318-.268.704-.392 1.225-.257 1.071-.481 2.762-.712 4.093-.238 1.371-.472 3.082-.695 4.013-.032.132-.051.155-.082.263-.03-.108-.05-.131-.081-.263-.224-.932-.458-2.644-.696-4.016-.232-1.333-.456-3.024-.713-4.096-.125-.521-.238-.908-.393-1.225a1.449 1.449 0 0 0-.31-.442.958.958 0 0 0-.624-.259z" />
+      </svg> 
+      <div>Photon</div>
+    </header>
+    <photon-app></photon-app>
+    <noscript>
+      Please enable JavaScript to view this website.
+    </noscript>
+  </body>
+</html>
