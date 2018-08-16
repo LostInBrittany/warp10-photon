@@ -1,6 +1,6 @@
 import { LitElement, html } from '@polymer/lit-element';
 
-import '@photon-elements/photon-ide-elements/photon-query-editor';
+import '@photon-elements/photon-ide-elements/photon-query';
 
 /**
  * @customElement
@@ -9,7 +9,7 @@ import '@photon-elements/photon-ide-elements/photon-query-editor';
 class PhotonApp extends LitElement {
   _render({debug}) {
     return html`
-      <photon-query-editor confPath='/photon-conf.yaml' debug?='${debug}'></photon-query-editor>
+      <photon-query confPath='/photon-conf.yaml' debug?='${debug}'></photon-query>
     `;
   }
 
