@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.11
+
+- Adding `e` and `r` as execute hotkey
+
 ## Version 1.0.10
 
 - Fix bug #8 - plot not working after edit
