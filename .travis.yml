@@ -10,7 +10,7 @@ before_script:
   - "npm install -g polymer-cli"
   - "npm install"
 script:
-  - "polymer build"
+  - "polymer build --base-path warp10-photon"
 
 
 deploy:
