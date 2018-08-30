@@ -1,5 +1,8 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.9
+
+- Adding stack position to the series legend under the graph
 ## Version 1.0.8
 
 - Adding Travis build, removing unused dependencies
