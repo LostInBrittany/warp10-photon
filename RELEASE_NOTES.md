@@ -1,5 +1,10 @@
 # Release notes for Warp10 Photon
 
+
+## Version 1.0.12
+
+- Improving hotkey support, `h` as hotkey help
+
 ## Version 1.0.11
 
 - Adding `e` and `r` as execute hotkey
