@@ -1,5 +1,8 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.13
+
+- Quick fix to hotkeys: make hotkeys not work while editing fields
 
 ## Version 1.0.12
 
