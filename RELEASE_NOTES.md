@@ -1,12 +1,16 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.14
+
+- Migrating from `hotkeys-js` to `@lostinbrittany/shortcuts`, adding ctrl+e shortcut inside editor, all to improve [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4)
+
 ## Version 1.0.13
 
-- Quick fix to hotkeys: make hotkeys not work while editing fields
+- Quick fix to [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4): make hotkeys not work while editing fields
 
 ## Version 1.0.12
 
-- Improving hotkey support, `h` as hotkey help
+- Improving [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4), `h` as hotkey help
 
 ## Version 1.0.11
 
@@ -19,6 +23,7 @@
 ## Version 1.0.9
 
 - Adding stack position to the series legend under the graph
+
 ## Version 1.0.8
 
 - Adding Travis build, removing unused dependencies
