@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.15
+
+-Fixing some minor bug (errors in console), refining hotkey help panel to improve [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4)
+
 ## Version 1.0.14
 
 - Migrating from `hotkeys-js` to `@lostinbrittany/shortcuts`, adding ctrl+e shortcut inside editor, all to improve [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4)
