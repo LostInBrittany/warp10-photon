@@ -1,5 +1,11 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.16
+
+- Adding support for "special" chars like `/` as hotkeys
+- Refactoring code
+- Setting white background
+
 ## Version 1.0.15
 
 -Fixing some minor bug (errors in console), refining hotkey help panel to improve [hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4)
