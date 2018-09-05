@@ -8,7 +8,7 @@
     "url": "https://github.com/LostInBrittany/warp10-photon"
   },
   "dependencies": {
-    "@photon-elements/photon-ide-elements": "^1.0.17",
+    "@photon-elements/photon-ide-elements": "^1.0.18",
     "@polymer/polymer": "^3.0.0"
   },
   "devDependencies": {
