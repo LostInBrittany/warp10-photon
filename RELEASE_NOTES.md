@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.17
+
+- Hotkeys for 'plot all' and 'plot none' ([hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4))
+
 ## Version 1.0.16
 
 - Adding support for "special" chars like `/` as hotkeys
