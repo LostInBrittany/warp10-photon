@@ -1,5 +1,10 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.20
+
+
+- Fix #14 - More explicit visual indication of open tree in response inspector
+
 ## Version 1.0.19
 
 - Fix #13 - Photon incorrectly reports X-Warp10-Elapsed when in seconds
