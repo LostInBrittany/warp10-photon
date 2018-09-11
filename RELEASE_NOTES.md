@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.19
+
+- Fix #13 - Photon incorrectly reports X-Warp10-Elapsed when in seconds
+
 ## Version 1.0.18
 
 - Hotkeys for select timeseries to plot by regexp ([hotkey support](https://github.com/LostInBrittany/warp10-photon/issues/4))
