@@ -1,6 +1,10 @@
 # Release notes for Warp10 Photon
 
 
+## Version 1.0.23
+
+- Fixing minor bugs with permalinks
+
 ## Version 1.0.22
 
 - Fix #1 - At last we support permalinks! Compatible with old Quantum permalinks
