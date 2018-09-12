@@ -1,7 +1,12 @@
 # Release notes for Warp10 Photon
 
-## Version 1.0.20
 
+## Version 1.0.21
+
+- Fix #18 - Local warp default backend URL
+- Fix #15 - Error when moving a series
+
+## Version 1.0.20
 
 - Fix #14 - More explicit visual indication of open tree in response inspector
 
