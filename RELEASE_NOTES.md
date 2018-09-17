@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.24
+
+- Fix #23 Link to GitHub
+- Fix #21 Make background white again!
 
 ## Version 1.0.23
 
