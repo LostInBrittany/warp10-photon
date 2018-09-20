@@ -1,9 +1,12 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.27
+
+- Fix #10 - Freeze in Photon (added lazy tree rendering, at last!)
+
 ## Version 1.0.26
 
 - Fix #19 - Execute button should lose the focus after the click
-
 
 ## Version 1.0.25
 
