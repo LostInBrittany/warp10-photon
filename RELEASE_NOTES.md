@@ -1,9 +1,14 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.25
+
+- Fix #27 - Easy way to plot all series (error in select all function)
+
 ## Version 1.0.24
 
-- Fix #23 Link to GitHub
-- Fix #21 Make background white again!
+- Fix #25 - Put permalink in URL fragment after every execution
+- Fix #23 - Link to GitHub
+- Fix #21 - Make background white again!
 
 ## Version 1.0.23
 
