@@ -3,6 +3,8 @@
 ## Version 1.1.0
 
 - Consolidate all the features for a new release
+- Fix #32 - Error not shown when calling a non existent backend
+- Fix #31 - Ctrl+e hotkey doesn't work on Mac
 - Fix #24 - Wanted: button to display shortcuts
 
 ## Version 1.0.30
