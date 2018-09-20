@@ -1,5 +1,10 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.26
+
+- Fix #19 - Execute button should lose the focus after the click
+
+
 ## Version 1.0.25
 
 - Fix #27 - Easy way to plot all series (error in select all function)
