@@ -1,7 +1,7 @@
 # Release notes for Warp10 Photon
 
 
-## Version 1.0.28
+## Version 1.0.28 and 1.0.29
 
 - Fix lit-element version until I update all my elements APIs
 
