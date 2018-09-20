@@ -1,5 +1,10 @@
 # Release notes for Warp10 Photon
 
+## Version 1.1.0
+
+- Consolidate all the features for a new release
+- Fix #24 - Wanted: button to display shortcuts
+
 ## Version 1.0.30
 
 - Fix #20 - Don't show rendering metadata on time series
