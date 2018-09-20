@@ -1,7 +1,10 @@
 # Release notes for Warp10 Photon
 
+## Version 1.0.30
 
-## Version 1.0.28 and 1.0.29
+- Fix #20 - Don't show rendering metadata on time series
+
+## Versions 1.0.28 and 1.0.29
 
 - Fix lit-element version until I update all my elements APIs
 
