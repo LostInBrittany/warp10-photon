@@ -1,5 +1,10 @@
 # Release notes for Warp10 Photon
 
+
+## Version 1.0.28
+
+- Fix lit-element version until I update all my elements APIs
+
 ## Version 1.0.27
 
 - Fix #10 - Freeze in Photon (added lazy tree rendering, at last!)
