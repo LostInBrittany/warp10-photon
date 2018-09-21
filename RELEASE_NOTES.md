@@ -1,5 +1,9 @@
 # Release notes for Warp10 Photon
 
+## Version 1.2.0
+
+- Migration to new syntax of @polymer/lit-element@^0.6.1
+
 ## Version 1.1.0
 
 - Consolidate all the features for a new release

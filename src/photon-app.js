@@ -7,9 +7,9 @@ import '@photon-elements/photon-ide-elements/photon-query';
  * @polymer
  */
 class PhotonApp extends LitElement {
-  _render({debug}) {
+  render() {
     return html`
-      <photon-query confPath='photon-conf.yaml' debug?='${debug}'></photon-query>
+      <photon-query confPath='photon-conf.yaml' ?debug=${this.debug}></photon-query>
     `;
   }
 
